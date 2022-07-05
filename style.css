@@ -1,0 +1,33 @@
+.menu-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 5px;
+    color: azure;
+    
+}
+
+
+.menu-items{
+    display: flex;
+ }
+
+.menu-items li{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.company-logo{
+    font-size: 30px;
+}
+
+.menu-items li:hover{
+    color: rgb(28, 241, 248);
+    cursor:pointer;
+}
+
+.menu-container:hover{
+    color:rgb(220, 0, 136) ;
+}
